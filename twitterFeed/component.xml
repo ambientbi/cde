@@ -1,0 +1,27 @@
+<DesignerComponent>
+	<Header>
+		<Name>Twitter Feed</Name>
+		<IName>twitterFeed</IName>
+		<Description>twitterFeed</Description>
+		<Category>AMBIENTBI</Category>
+		<CatDescription>Ambient BI</CatDescription>
+		<Type>PalleteEntry</Type>
+		<Version>1.0</Version>
+	</Header>
+	<Contents>
+		<Model>
+			<Property>label</Property>
+			<Property>executeAtStart</Property>
+			<Property>htmlObject</Property>
+		</Model>
+		<Implementation>
+			<Code src="twitterFeed.js" />
+			<Styles>
+				<Style version="1.0" src="twitterFeed.css">
+					Export Data
+				</Style>
+			</Styles>
+			<Dependencies/>
+		</Implementation>
+	</Contents>
+</DesignerComponent>
